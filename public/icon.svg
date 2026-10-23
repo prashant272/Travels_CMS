@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="yd_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="bg_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="128" fill="url(#bg_grad)" />
+  <rect x="8" y="8" width="496" height="496" rx="120" fill="none" stroke="#10b981" stroke-opacity="0.3" stroke-width="8" />
+  
+  <!-- Stylized Train Front -->
+  <g transform="translate(106, 96)">
+    <!-- Train Body -->
+    <rect x="30" y="30" width="240" height="260" rx="40" fill="url(#yd_grad)" />
+    <!-- Windshield -->
+    <rect x="50" y="60" width="200" height="90" rx="16" fill="#0f172a" opacity="0.9" />
+    <path d="M70 80 L130 80" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+    <!-- Headlights -->
+    <circle cx="75" cy="230" r="16" fill="#ffffff" />
+    <circle cx="75" cy="230" r="24" fill="#ffffff" opacity="0.25" />
+    <circle cx="225" cy="230" r="16" fill="#ffffff" />
+    <circle cx="225" cy="230" r="24" fill="#ffffff" opacity="0.25" />
+    <!-- Grille / Pilot -->
+    <line x1="110" y1="230" x2="190" y2="230" stroke="#0f172a" stroke-width="8" stroke-linecap="round" />
+    <!-- Track line -->
+    <line x1="-20" y1="310" x2="320" y2="310" stroke="#10b981" stroke-width="12" stroke-linecap="round" />
+  </g>
+</svg>
